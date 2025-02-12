@@ -31,7 +31,7 @@ const ChatPage = () => {
 	console.log({ messages });
 
 	return (
-		<main className='h-full rounded-lg bg-gradient-to-b from-zinc-800 to-zinc-900 overflow-hidden'>
+		<main className='h-full rounded-lg  bg-fuchsia-700  from-zinc-800 to-zinc-900 overflow-hidden'>
 			<Topbar />
 
 			<div className='grid lg:grid-cols-[300px_1fr] grid-cols-[80px_1fr] h-[calc(100vh-180px)]'>
@@ -92,7 +92,7 @@ export default ChatPage;
 
 const NoConversationPlaceholder = () => (
 	<div className='flex flex-col items-center justify-center h-full space-y-6'>
-		<img src='/spotify.png' alt='Spotify' className='size-16 animate-bounce' />
+		<img src='/logo.png' alt='NICE MUSIC' className='size-16  rounded-full animate-bounce' />
 		<div className='text-center'>
 			<h3 className='text-zinc-300 text-lg font-medium mb-1'>No conversation selected</h3>
 			<p className='text-zinc-500 text-sm'>Choose a friend to start chatting</p>

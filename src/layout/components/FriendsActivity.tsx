@@ -14,7 +14,7 @@ const FriendsActivity = () => {
 	}, [fetchUsers, user]);
 
 	return (
-		<div className='h-full bg-zinc-900 rounded-lg flex flex-col'>
+		<div className='h-full bg-fuchsia-900 rounded-lg flex flex-col'>
 			<div className='p-4 flex justify-between items-center border-b border-zinc-800'>
 				<div className='flex items-center gap-2'>
 					<Users className='size-5 shrink-0' />
@@ -87,7 +87,7 @@ const LoginPrompt = () => (
        opacity-75 animate-pulse'
 				aria-hidden='true'
 			/>
-			<div className='relative bg-zinc-900 rounded-full p-4'>
+			<div className='relative bg-fuchsia-900 rounded-full p-4'>
 				<HeadphonesIcon className='size-8 text-emerald-400' />
 			</div>
 		</div>
